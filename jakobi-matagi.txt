@@ -1,0 +1,155 @@
+    https://codepen.io/josephmatagi/pen/jOrwdxB
+
+
+    1. What is Semantic HTML? 
+    HTML that gives the content meaning.
+
+    2. What is HTML used for? 
+    HTML is used to build the structure of the application
+
+    3. What is an attribute and where do we put it? 
+    Attributes are special words used inside the opening tag to control the element's behaviour
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tag is used for the title of the page and should only be used once
+
+    5. Name two tags that have required attributes
+    href and src
+
+    6. What do we put in the head of our HTML document?
+     The head is used for metadata or data for the computer that the user of application doesn't see
+
+    7. What is an id?
+    attribute used to point to a specific declaration in CSS
+
+    8. What elements can I add an id to? 
+    any html element
+
+    9. How many times can I use the same id on a page? 
+    once
+
+    10. What is a class? 
+    Class is another selector to be declared in CSS but can be used more than once on a HTML
+
+    11. What elements can I add a class to?
+    any html element
+
+    12. How many times can I use the same class on a page? 
+    as many times as you want
+
+    13. How do I get my link to open in a new tab?
+    _blank
+
+    14. What is the alt attribute in the image tag used for?
+    it is to give it a name for the image
+
+    15. How do I reference an id?
+    #'name of id'
+
+    16. What is the difference between a section and a div?
+    Section is usually a specific group of content a Div doesn't have a specific group of content it is used to help in CSS
+
+    17. What is CSS used for? 
+    CSS is used to give the application style
+
+    18. How to we select an element? Example - every h2 on the page
+    h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class is used usually to style multiple groups of content. Id is used to style a specific group.
+
+    Class for example would be used to style multiple paragraphs. The id would be used to style the application logo.
+
+    20. How do we select classes in CSS?
+    You call it by using a period
+    
+    .'name of class'
+
+
+    21. How do we select a p element with a single class of “human””?
+    p.human
+
+    22. What is a parent child selector? When would this be useful? 
+    It is when you call the parent and child. It is useful when you want to be more specific.
+
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar:link
+
+    24. What is a pseudo selector?
+    A pseudo selector is a keyword added to a selector that specifies a special state of the selected element
+
+    25. What do we use the change the spacing between lines?
+    line-height
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black?
+div{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+}
+
+    29. How do I select everything on the page?
+    *{
+
+    }
+
+    30. How do I write a comment in CSS?
+    /*'comment here'*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    rm and you need to be careful because you can't recover it
+
+    34. Why should I use version control?
+    You should use it because it helps groups use the same source code and individual change it with out losing the source code
+
+    35. How often should I commit to github?
+    Whenever there is a change to the code
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin 'branch name'
+
+    37. Walk me through Lambda's git flow. 
+    1. Fork the repo to make it your own version
+    2. Your name/name of repo
+    3. Clone your repo
+    4. In your CLI use the cd command to go to directory
+    5. Use git clone <link-to-repo> to clone it into directory
+    6. cd into the newly created repo
+    7. Use git checkout -b 'firstname-lastname' to create new branch
+    8. Now you can work on repo
+    9. To add and commit changes on your branch you can do the following
+     -git add . will add the repo changes and make them ready for committing
+     -git commit -m "Your helpful commit message here" will commit the changes with your specified commit message (commit message should explain what changes you've added to the repo that you are committing)
+    10. Push your changes back up to your Github repo
+     -git push -u origin branch-name will push all of your commits from your local machine up onto github
+     -Remember that branch-name here will be whatever name you specified when you did git checkout -b (in the case it should be your firstname-lastname)
+    11. Now that the changes are up you can PR (pull request)
+    12. Go back to forked project on repo click on Branch:master on left side click on base and click the file that you want to pull request.
+    13. Create Pull Request.
+
+
+
+
+
+review
+    1. What is the difference between an inline element and a block element?
+ 	An inline
+    2. What happens when an element is positioned absolutely? 
+	The element is positioned relative to the nearest anscestor 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	By using VH and VW
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	Display Block: Header, Footer, Div...Inline: Span, Anchor, Img
+    5. In your own words, explain the box model. What is the fix for the box model? 
+	Every element has its own box and the box model gives us the spacing around it and allows us to create spacing from other elements and spacing inside that element itself.
