@@ -143,9 +143,13 @@ div{
 
 
 review
-1. What is the difference between an inline element and a block element?
- An inline
+    1. What is the difference between an inline element and a block element?
+ 	An inline
     2. What happens when an element is positioned absolutely? 
+	The element is positioned relative to the nearest anscestor 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	By using VH and VW
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	Display Block: Header, Footer, Div...Inline: Span, Anchor, Img
     5. In your own words, explain the box model. What is the fix for the box model? 
+	Every element has its own box and the box model gives us the spacing around it and allows us to create spacing from other elements and spacing inside that element itself.
